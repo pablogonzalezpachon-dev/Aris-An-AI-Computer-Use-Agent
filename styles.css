@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+.aris-edge-glow {
+  position: fixed;
+  inset: 0;
+  border-radius: 28px;
+
+  /* fake border using padding */
+  padding: 2px;
+
+  background: linear-gradient(
+    120deg,
+    rgba(120, 200, 255, 0.55),
+    rgba(90, 160, 255, 0.35),
+    rgba(160, 220, 255, 0.55)
+  );
+
+  /* cut out the center */
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  filter: blur(14px);
+  opacity: 0.85;
+
+  animation: arisGlowShift 6s ease-in-out infinite;
+}
+
+/* slow ambient motion */
+@keyframes arisGlowShift {
+  0% {
+    filter: blur(12px) hue-rotate(0deg);
+    opacity: 0.75;
+  }
+  50% {
+    filter: blur(18px) hue-rotate(12deg);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(12px) hue-rotate(0deg);
+    opacity: 0.75;
+  }
+}

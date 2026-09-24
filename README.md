@@ -1,6 +1,6 @@
 # Aris: An AI Agent for Computer Use
 
-![Aris logo](https://github.com/user-attachments/assets/2b19f7e1-f1d7-457d-ab3f-7c22857cb17f)
+<img width="500" height="500" alt="IMG_3725" src="https://github.com/user-attachments/assets/81904c25-54d5-4545-bc89-57a87fbc3b38" />
 
 Aris is an AI agent that can interact with a computer by clicking, scrolling, and running terminal commands. It is designed to help complete a wide range of tasks on a personal computer.
 

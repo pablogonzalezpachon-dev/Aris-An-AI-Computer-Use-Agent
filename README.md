@@ -1,27 +1,25 @@
-<h1>Aris: An AI Computer Use AI Agent</h1>
-<img width="400" height="400" alt="IMG_3725" src="https://github.com/user-attachments/assets/2b19f7e1-f1d7-457d-ab3f-7c22857cb17f" />
-<p>Aris is an AI agent capable of clicking, scrolling and executing commands on the terminal. It is designed to handle all kind of tasks in a personal computer. </p>
-<h2>How does it work?</h2>
-<p>The agent runs in a loop. 
+# Aris: An AI Agent for Computer Use
 
-First, the agent will receive two things: 
-  - A screenshot, showing the current state of the screen
-  - An structured text (called Desktop State) with all of the x and y coordinates of the components of the screen (such as buttons, headings, boxes, etc). This was achieved using Microsoft UI Automation (UIA), the Windows accessibility framework that exposes information about on-screen controls—such as their names, roles, states, and actions.
+![Aris logo](https://github.com/user-attachments/assets/2b19f7e1-f1d7-457d-ab3f-7c22857cb17f)
 
-With this information, the agent could then output the instructions to achieve the task. Using the API from the largest AI providers, the LLM would then output a structured response, which then was parsed in order to execute the corresponding action.
+Aris is an AI agent that can interact with a computer by clicking, scrolling, and running terminal commands. It is designed to help complete a wide range of tasks on a personal computer.
 
-Once the action was done, a new screenshot and Desktop State is sent. This loop will continue until the LLM concludes that the task is done.
-</p>
+## How it works
 
-<h2>Results: </h2>
-[https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing](https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing)
-[https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing](https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing)
-[https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing](https://drive.google.com/file/d/10U-QUdvj7q0rM8288kRI2xoU8V9x5gNl/view?usp=sharing)
+Aris works in a continuous observe-and-act loop:
 
-<img width="1920" height="1080" alt="Screenshot 2026-09-24 111200" src="https://github.com/user-attachments/assets/d3d5e575-0ed2-4274-820d-7314af837e8f" />
+1. **Observe:** The agent receives a screenshot of the current screen and a structured description of its interface, called the *Desktop State*.
+2. **Understand:** The Desktop State includes information about visible interface elements—such as buttons, headings, and text boxes—and their screen positions. Aris gathers this information using **Microsoft UI Automation (UIA)**, the Windows accessibility framework.
+3. **Act:** An AI model interprets the screenshot and Desktop State, then returns structured instructions for the next action. Aris parses those instructions and performs the corresponding action.
+4. **Repeat:** Aris captures an updated screenshot and Desktop State, then continues the loop until it determines that the task is complete.
 
+## Demo
 
+- [Watch demo 1](https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing)
+- [Watch demo 2](https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing)
+- [Watch demo 3](https://drive.google.com/file/d/10U-QUdvj7q0rM8288kRI2xoU8V9x5gNl/view?usp=sharing)
 
+![Aris running on a Windows desktop](https://github.com/user-attachments/assets/d3d5e575-0ed2-4274-820d-7314af837e8f)
 
 
 

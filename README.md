@@ -18,6 +18,9 @@ Once the action was done, a new screenshot and Desktop State is sent. This loop 
 [https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing](https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing)
 [https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing](https://drive.google.com/file/d/10U-QUdvj7q0rM8288kRI2xoU8V9x5gNl/view?usp=sharing)
 
+<img width="1920" height="1080" alt="Screenshot 2026-09-24 111200" src="https://github.com/user-attachments/assets/d3d5e575-0ed2-4274-820d-7314af837e8f" />
+
+
 
 
 

@@ -12,3 +12,15 @@ With this information, the agent could then output the instructions to achieve t
 
 Once the action was done, a new screenshot and Desktop State is sent. This loop will continue until the LLM concludes that the task is done.
 </p>
+
+<h2>Results: </h2>
+[https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing](https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing)
+[https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing](https://drive.google.com/file/d/1HzAwld5iYOBuWXkn-1GMg42nxC4qyWVu/view?usp=sharing)
+[https://drive.google.com/file/d/1KhgJc2w0wjgnkInm-5NSCB1msvkUrM2a/view?usp=sharing](https://drive.google.com/file/d/10U-QUdvj7q0rM8288kRI2xoU8V9x5gNl/view?usp=sharing)
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 <h1>Aris: An AI Computer Use AI Agent</h1>
-<img width="1024" height="1024" alt="IMG_3725" src="https://github.com/user-attachments/assets/2b19f7e1-f1d7-457d-ab3f-7c22857cb17f" />
+<img width="500" height="500" alt="IMG_3725" src="https://github.com/user-attachments/assets/2b19f7e1-f1d7-457d-ab3f-7c22857cb17f" />
 <p>Aris is an AI agent capable of clicking, scrolling and executing commands on the terminal. It is designed to handle all kind of tasks in a personal computer. </p>
 <h2>How does it work?</h2>
 <p>The agent runs in a loop. 
